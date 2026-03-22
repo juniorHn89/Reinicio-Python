@@ -1,4 +1,11 @@
-# PSEUDOCÓDIGO - Asignar valores a múltiples variables
+# PSEUDOCï¿½DIGO - Asignar valores a mï¿½ltiples variables
 # 1. Crear variable edad = 25
 # 2. Crear variable ciudad = 'Madrid'
 # 3. Imprimir edad y ciudad
+
+edad = 25
+
+ciudad = "Madrid"
+
+print(f"Tengo {edad} aÃ±os y vivo en {ciudad}.")
+
