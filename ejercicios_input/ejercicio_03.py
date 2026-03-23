@@ -1,7 +1,19 @@
-# PSEUDOCÓDIGO - Comparar números
-# 1. Pedir primer número
-# 2. Pedir segundo número
+# PSEUDOCï¿½DIGO - Comparar nï¿½meros
+# 1. Pedir primer nï¿½mero
+# 2. Pedir segundo nï¿½mero
 # 3. SI primer > segundo
-#    Imprimir 'El primero es más grande'
+#    Imprimir 'El primero es mï¿½s grande'
 # 4. SINO
-#    Imprimir 'El segundo es más grande'
+#    Imprimir 'El segundo es mï¿½s grande'
+
+primer_numero = int(input("Ingresa el primer numero: "))
+
+segundo_numero = int(input("Ingresa el segundo numero: "))
+
+if primer_numero > segundo_numero:
+    print("El primer numero es mayor")
+else:
+    print("El segundo es mas grande")
+
+
+

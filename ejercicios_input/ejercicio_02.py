@@ -1,7 +1,18 @@
-# PSEUDOCÓDIGO - Número par o impar
-# 1. Pedir al usuario ingresar un número
+# PSEUDOCï¿½DIGO - Nï¿½mero par o impar
+# 1. Pedir al usuario ingresar un nï¿½mero
 # 2. Convertir a entero
-# 3. SI número % 2 == 0
+# 3. SI nï¿½mero % 2 == 0
 #    Imprimir 'Es par'
 # 4. SINO
 #    Imprimir 'Es impar'
+
+num = int(input("Ingresa el numero: "))
+
+if num == 0:
+    print("Es cero")
+elif num % 2 == 0:
+    print("Es par")
+else:
+    print("Es impar")
+
+
