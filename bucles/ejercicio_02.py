@@ -1,4 +1,10 @@
-# PSEUDOCÓDIGO - For básico
+# PSEUDOCï¿½DIGO - For bï¿½sico
 # 1. Para i desde 1 hasta 5
 #    Imprimir i
-#    Incrementar i automáticamente
+#    Incrementar i automï¿½ticamente
+
+
+i = 5
+
+for i in range(1,6):
+    print(i)
