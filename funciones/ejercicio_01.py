@@ -1,4 +1,9 @@
-# PSEUDOCÓDIGO - Función sin parámetros
-# 1. Crear función llamada 'saludar()'
+# PSEUDOCï¿½DIGO - Funciï¿½n sin parï¿½metros
+# 1. Crear funciï¿½n llamada 'saludar()'
 # 2. Dentro imprimir 'Hola'
-# 3. Llamar la función
+# 3. Llamar la funciï¿½n
+def saludar():
+    return "hola"
+
+
+saludar()
