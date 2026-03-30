@@ -1,5 +1,12 @@
-# PSEUDOCÓDIGO - Función con parámetros
-# 1. Crear función 'sumar(a, b)'
+# PSEUDOCï¿½DIGO - Funciï¿½n con parï¿½metros
+# 1. Crear funciï¿½n 'sumar(a, b)'
 # 2. Dentro calcular suma = a + b
 # 3. Imprimir suma
-# 4. Llamar la función con sumar(5, 3)
+# 4. Llamar la funciï¿½n con sumar(5, 3)
+def sumar(a,b):
+    suma = a + b
+    print(suma)
+    
+sumar(5,3)
+    
+    

@@ -1,4 +1,13 @@
-# PSEUDOCÓDIGO - Función con múltiples parámetros
-# 1. Crear función 'crear_persona(nombre, edad, ciudad)'
+# PSEUDOCï¿½DIGO - Funciï¿½n con mï¿½ltiples parï¿½metros
+# 1. Crear funciï¿½n 'crear_persona(nombre, edad, ciudad)'
 # 2. Dentro imprimir: 'Nombre: [nombre], Edad: [edad], Ciudad: [ciudad]'
-# 3. Llamar la función
+# 3. Llamar la funciï¿½n
+
+
+def crear_persona(nombre, edad, ciudad):
+    print(f"Nombre: {nombre}, Edad: {edad}, Ciudad: {ciudad}")
+    
+crear_persona("junior", 36, "barcelona")
+    
+
+

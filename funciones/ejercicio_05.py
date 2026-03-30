@@ -1,7 +1,17 @@
-# PSEUDOCÓDIGO - Función con lógica
-# 1. Crear función 'es_mayor_de_edad(edad)'
+# PSEUDOCï¿½DIGO - Funciï¿½n con lï¿½gica
+# 1. Crear funciï¿½n 'es_mayor_de_edad(edad)'
 # 2. SI edad >= 18
 #    RETORNAR True
 # 3. SINO
 #    RETORNAR False
-# 4. Llamar la función con 20 y 15
+# 4. Llamar la funciï¿½n con 20 y 15
+
+def es_mayor_de_edad(edad):
+    if edad >= 18:
+        return True
+    else:
+        return False
+    
+
+print(es_mayor_de_edad(20))
+print(es_mayor_de_edad(15))
