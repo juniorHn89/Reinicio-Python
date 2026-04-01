@@ -8,3 +8,22 @@
 #       Imprimir "Te quedas a 0"
 #    Si saldo < precio:
 #       Imprimir "Saldo insuficiente"
+
+
+
+saldo = input("Saldo disponible? ")
+
+precio = input("se te cobraran ")
+
+if saldo > precio:
+    print("compra realizada")
+elif saldo == precio:
+    print("compra realizada")
+    print("te quedas a 0")
+elif saldo < precio:
+    print("saldo insuficiente")
+
+
+
+
+
