@@ -7,3 +7,31 @@
 #       Imprimir "Te falta la llave"
 #    Si nivel < 10:
 #       Imprimir "Nivel insuficiente"
+
+
+nivel = int(input("Nivel: "))
+
+def tiene_llave():
+    
+    respuesta = input("Tienes llave?,  (s/n) ").strip().lower()
+        
+    if respuesta in ["s", "si"]:
+        return True
+    elif respuesta in ("n", "no"):
+        return False
+    else:
+        print("Por favor escribe s o n")
+        return tiene_llave()
+        
+llave = tiene_llave()
+        
+if nivel >= 10 and llave:
+    print("Accedes al nivel secreto")
+elif nivel  >= 10 and not llave:
+    print("Te falta la llave")
+elif nivel < 10:
+    print("Nivel insuficiente")
+    
+
+
+

@@ -12,15 +12,14 @@
 # mostrar_saludo()
 
 
-def saludo(name):
-    return "Hola "  + name
+def saludo(nombre):
+    return "Hola " + nombre
 
-resultado = saludo("junior")
-print(resultado)
+def mostrar_saludo():
+    mensaje = saludo("Junior")
+    print(mensaje)
 
-
-
-
+mostrar_saludo()
 
 
 
